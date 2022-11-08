@@ -1,0 +1,546 @@
+nav{
+    height: 80px;
+    background-color: transparent;
+    line-height: 80px;
+    -webkit-box-shadow: 0 0 0 0 rgb(0 0 0 / 14%), 0 0 0 0 rgb(0 0 0 / 12%), 0 0 0 0 rgb(0 0 0 / 20%); 
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 14%), 0 0 0 0 rgb(0 0 0 / 12%), 0 0 0 0 rgb(0 0 0 / 20%);
+}
+
+.logo{
+    height: 60px;
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+
+.header{
+    background-image: url("../img/bg.png");
+    height: 100vh;
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.letras{
+    padding-top: 30vh;
+    padding-left: 4rem;
+}
+
+.solucion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.finanzas{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.aqui{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comenzar{
+    background-color: #ffd15c;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.nosotros{
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.parrafoNosotros{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6e7783;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #6e7783;
+    padding-right: 1rem;
+}
+
+.line{
+    border: solid 2px #ffd15c;
+    width: 2rem;
+}
+
+.servicios{
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.descriptionCard{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.titleCard{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.large{
+    background-image: url("../img/bar.png");
+    background-size: cover;
+    aspect-ratio: 9.1/2;
+}
+
+.ver{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #003e51;
+}
+
+.titleCardc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clAbajo{
+    width: 95%;
+    background-image: url("../img/clabajo.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.descriptionCardc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #000;
+    margin-right: 2rem;
+}
+
+.obsizq{
+    width: 95%;
+    margin: 0 auto;
+    background-image: url("../img/obsizquierda.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.clderecha{
+    margin-left: auto;
+    width: 95%;
+    background-image: url("../img/clderecha.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.obspuntos{
+    width: 95%;
+    background-image: url("../img/obspuntos.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.clizq{
+    width: 95%;
+    margin: 0 auto;
+    background-image: url("../img/clizquierda.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.obslinea{
+    margin-left: auto;
+    width: 95%;
+    background-image: url("../img/obsline.png");
+    background-size: cover;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+}
+
+.simulador{
+    background-color: #f8f8f8;
+}
+
+.cuanto{
+    padding-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+
+
+.monto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.pago{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.montoPago{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.solicitar{
+    margin: 0 auto;
+    background-color: #ffd15c;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    padding: 2rem 8rem;
+    line-height: 0;
+}
+
+.requisitos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.ventajas{
+    margin-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.chart{
+    background-image: url("../img/chart.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.titlev{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    padding-top: 10rem;
+}
+
+.descv{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6e7783;
+    padding-left: 6rem;
+    padding-right: 5rem;
+}
+
+.plant{
+    background-image: url("../img/plant.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.market{
+    background-image: url("../img/market.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.solicitarg{
+    margin: 0 auto;
+    background-color: #424143;
+    border-radius: 40px;
+    font-size: 13.2px;
+    color: #fff;
+    text-transform: none;
+    padding: 1rem 3rem;
+    line-height: 4px;
+}
+
+.conoce{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.descc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #6e7783;
+}
+
+.orangeBg{
+    background-color: rgb(255 209 92 / 20%)  ;
+    border-radius: 15px;
+}
+
+.nombre{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.tarjeta{
+    background-color: #fff;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.comillas{
+    width: 20%;
+}
+
+.testimonio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: #6e7783;
+}
+
+.tarjetas{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+
+.aliados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aliado{
+    width: 9%;
+    height: auto;
+}
+
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.contactCard{
+    width: 50%;
+    height: 87vh;
+    background-color: rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    position:absolute; 
+    z-index:1;
+    left: 45%; 
+    padding-left: 10rem;
+}
+
+.fondo{
+    padding: 4rem;
+    position:absolute; 
+    z-index:0;
+}
+
+.envianos{
+    margin-top: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
