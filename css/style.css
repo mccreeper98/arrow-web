@@ -491,6 +491,35 @@ nav{
     left: 4rem;
 }
 
+.controls{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrows i{
+    color: #ef9201;
+}
+
+.dots i{
+    color: rgb(239 146 1 / 21%);
+    font-size: 15px;
+}
+
+.dots i .active{
+    color: rgb(239 146 1);
+}
+
+.enviar{
+    background-color: #ef9201;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+}
+
 .aliados{
     display: flex;
     flex-direction: row;
@@ -543,4 +572,167 @@ nav{
     letter-spacing: normal;
     color: #fff;
     text-transform: uppercase;
+}
+
+.newcolor{
+    color: #000;
+}
+.header-port{
+    background-image: url("/img/bg-port.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+}
+
+.creditos{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .35);
+    color: #fff;
+}
+.creditos-titulo{   
+    margin: 0;
+     padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;    
+}
+.creditos-text{
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight:600 ;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.creditos-tipos{
+    margin: 15rem 0;
+}
+.tipos-content{
+    background-image: url("/img/bg-card.png");
+    display: flex;
+    margin: 5rem 0;
+    
+}
+.tipo-texto{
+    max-width: 50%;
+}
+.tipos-content-r{
+    background-image: url("/img/bg-card.png");
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 150px 0;
+}
+
+.tipo{  
+    font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000;
+}
+.tipo-explain{
+    max-width: 70%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align:right;
+    color: #000;
+}
+.tipo-r{
+    font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+.tipo-explain-r{
+    max-width: 70%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+
+    color: #000;
+}
+.creditos-img{
+    margin-bottom: -100px;
+    margin-top: -175px;
+    width:50%;
+}
+
+
+
+/* Text inputs */
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 15px;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input:not([type]).validate + label,
+input[type=text]:not(.browser-default).validate + label,
+input[type=password]:not(.browser-default).validate + label,
+input[type=email]:not(.browser-default).validate + label,
+input[type=url]:not(.browser-default).validate + label,
+input[type=time]:not(.browser-default).validate + label,
+input[type=date]:not(.browser-default).validate + label,
+input[type=datetime]:not(.browser-default).validate + label,
+input[type=datetime-local]:not(.browser-default).validate + label,
+input[type=tel]:not(.browser-default).validate + label,
+input[type=number]:not(.browser-default).validate + label,
+input[type=search]:not(.browser-default).validate + label,
+textarea.materialize-textarea.validate + label {
+  padding-left: 1rem;
 }
