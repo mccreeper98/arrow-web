@@ -274,7 +274,6 @@ nav{
 }
 
 .simulador{
-    background-color: #f8f8f8;
 }
 
 .cuanto{
@@ -488,7 +487,7 @@ nav{
     display: flex;
     position: relative;
     top: 4rem;
-    left: 4rem;
+    left: 2rem;
 }
 
 .controls{
@@ -508,7 +507,7 @@ nav{
     font-size: 15px;
 }
 
-.dots i .active{
+.dots i.active{
     color: rgb(239 146 1);
 }
 

@@ -254,42 +254,52 @@
         </section>
 
         <section id="simulador">
-          <div class="simulador">
-            <p class="cuanto">
-              ¿Cuánto dinero necesitas?
-            </p>
-            <div class="center">
-              <img src="img/line.png" alt="">
-            </div>
-
-            <div class="datos">
-
-              <p class="monto">
-                $150,000
-              </p>
-
-              <div style="width: 50%; margin: 0 auto;">
-                <input type="range" min="-100" max="0" value="0" class="range blue"/>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m6 l6">
+                <div class="simulador">
+                  <p class="cuanto">
+                    ¿Cuánto dinero necesitas?
+                  </p>
+                  <div class="center">
+                    <img src="img/line.png" alt="">
+                  </div>
+      
+                  <div class="datos">
+      
+                    <p class="monto">
+                      $150,000
+                    </p>
+      
+                    <div style="width: 80%; margin: 0 auto;">
+                      <input type="range" min="-100" max="0" value="0" class="range custom"/>
+                    </div>
+      
+                    <p class="pago">
+                      Pago quincenal estimado:
+                    </p>
+                    <p class="montoPago">
+                      $13,130.00
+                    </p>
+                    
+                  </div>
+                  <br><br>
+                  <div class="center">
+                    <a class="waves-effect waves-light btn solicitar">SOLICITAR AHORA</a>
+                  </div>
+                  <br>
+                  <p class="requisitos">
+                    Requisitos: Identificación oficial vigene y cuenta bancaria a tu nombre. Buen historial <br>crediticio reciente e ingresos comprobables mínimos por $10,000 mensuales
+                  </p>
+                  <br>
+                  <br>
+                </div>
               </div>
 
-              <p class="pago">
-                Pago quincenal estimado:
-              </p>
-              <p class="montoPago">
-                $13,130.00
-              </p>
-              
+              <div class="col s12 m6 l6">
+                <img src="img/mujer.png" alt="" class="responsive-img">
+              </div>
             </div>
-            <br><br>
-            <div class="center">
-              <a class="waves-effect waves-light btn solicitar">SOLICITAR AHORA</a>
-            </div>
-            <br>
-            <p class="requisitos">
-              Requisitos: Identificación oficial vigene y cuenta bancaria a tu nombre. Buen historial <br>crediticio reciente e ingresos comprobables mínimos por $10,000 mensuales
-            </p>
-            <br>
-            <br>
           </div>
         </section>
 
@@ -343,17 +353,49 @@
                 <div class="orangeBg">
 
                   <div class="tarjetas">
-                    <div class="tarjeta">
+                    <div class="tarjeta" id="tarjeta0" style="margin-left: 2rem;">
                       <img src="img/comillas.png" class="comillas">
-                      <p class="nombre">Carlos Ramos</p>
+                      <p class="nombre">Carlos Ramos 1</p>
                       <p class="testimonio">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
                       </p>
                     </div>
 
-                    <div class="tarjeta" style="margin-left: 2rem;">
+                    <div class="tarjeta" id="tarjeta1" style="margin-left: 2rem;">
                       <img src="img/comillas.png" class="comillas">
-                      <p class="nombre">Carlos Ramos</p>
+                      <p class="nombre">Carlos Ramos 2</p>
+                      <p class="testimonio">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      </p>
+                    </div>
+
+                    <div class="tarjeta hide" id="tarjeta2" style="margin-left: 2rem;">
+                      <img src="img/comillas.png" class="comillas">
+                      <p class="nombre">Carlos Ramos 3</p>
+                      <p class="testimonio">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      </p>
+                    </div>
+
+                    <div class="tarjeta hide" id="tarjeta3" style="margin-left: 2rem;">
+                      <img src="img/comillas.png" class="comillas">
+                      <p class="nombre">Carlos Ramos 4</p>
+                      <p class="testimonio">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      </p>
+                    </div>
+
+                    <div class="tarjeta hide" id="tarjeta4" style="margin-left: 2rem;">
+                      <img src="img/comillas.png" class="comillas">
+                      <p class="nombre">Carlos Ramos 5</p>
+                      <p class="testimonio">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                      </p>
+                    </div>
+
+                    <div class="tarjeta hide" id="tarjeta5" style="margin-left: 2rem;">
+                      <img src="img/comillas.png" class="comillas">
+                      <p class="nombre">Carlos Ramos 6</p>
                       <p class="testimonio">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
                       </p>
@@ -364,14 +406,14 @@
 
                 <div class="controls">
                    <div class="arrows">
-                    <i class="material-icons">west</i>
+                    <i class="material-icons" style="cursor: pointer;" onclick="back()">west</i>
                     &nbsp;&nbsp;&nbsp;
-                    <i class="material-icons">east</i>
+                    <i class="material-icons" style="cursor: pointer;" onclick="next()">east</i>
                    </div>
                    <div class="dots">
-                    <i class="material-icons active">fiber_manual_record</i>
-                    <i class="material-icons">fiber_manual_record</i>
-                    <i class="material-icons">fiber_manual_record</i>
+                    <i class="material-icons active" id="dot1">fiber_manual_record</i>
+                    <i class="material-icons" id="dot3">fiber_manual_record</i>
+                    <i class="material-icons" id="dot5">fiber_manual_record</i>
                    </div>
                 </div>
               </div>
@@ -501,9 +543,86 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>
+
+        var index = 1;
+        var size = 5;
+
         $(document).ready(function(){
           $(".button-collapse").sideNav();
+
+          setTimeout(() => {
+            recursive();
+          }, 3000);
+
         });
+
+        function recursive(){
+          next();
+
+          setTimeout(() => {
+            recursive();
+          }, 3000);
+        }
+
+
+        function next(){
+          
+          if(index != size){
+            var ant = index-1;
+            $("#tarjeta"+index).addClass('hide');
+            $("#tarjeta"+ant).addClass('hide');
+            $("#dot"+index).removeClass('active');
+
+
+            index = index+2;
+            var acomp = index-1;
+            $("#tarjeta"+index).removeClass('hide');
+            $("#tarjeta"+acomp).removeClass('hide');
+            $("#dot"+index).addClass('active');
+          }else{
+            var ant = index-1;
+            $("#tarjeta"+index).addClass('hide');
+            $("#tarjeta"+ant).addClass('hide');
+            $("#dot"+index).removeClass('active');
+
+
+            index = 1;
+            var acomp = index-1;
+            $("#tarjeta"+index).removeClass('hide');
+            $("#tarjeta"+acomp).removeClass('hide');
+            $("#dot"+index).addClass('active');
+          }
+        }
+
+        function back(){
+          
+          if(index != 1){
+            var ant = index-1;
+            $("#tarjeta"+index).addClass('hide');
+            $("#tarjeta"+ant).addClass('hide');
+            $("#dot"+index).removeClass('active');
+
+
+            index = index-2;
+            var acomp = index-1;
+            $("#tarjeta"+index).removeClass('hide');
+            $("#tarjeta"+acomp).removeClass('hide');
+            $("#dot"+index).addClass('active');
+          }else{
+            var ant = index-1;
+            $("#tarjeta"+index).addClass('hide');
+            $("#tarjeta"+ant).addClass('hide');
+            $("#dot"+index).removeClass('active');
+
+            index = 5;
+            var acomp = index-1;
+            $("#tarjeta"+index).removeClass('hide');
+            $("#tarjeta"+acomp).removeClass('hide');
+            $("#dot"+index).addClass('active');
+          }
+        }
+
+
       </script>
     </body>
   </html>
