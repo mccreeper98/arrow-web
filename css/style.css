@@ -466,6 +466,7 @@ nav{
     width: 40%;
     padding: 1rem;
     border-radius: 15px;
+    margin-left: 2rem;
 }
 
 .comillas{
@@ -529,18 +530,6 @@ nav{
 .aliado{
     width: 9%;
     height: auto;
-}
-
-.copy{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000;
 }
 
 .contactCard{
@@ -735,3 +724,229 @@ input[type=search]:not(.browser-default).validate + label,
 textarea.materialize-textarea.validate + label {
   padding-left: 1rem;
 }
+
+.footer{
+    background-color: #434343;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.direccion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+.footer-icon{
+    color: #ffd15c;
+    margin-top: 1rem;
+}
+
+.logow{
+    height: 37px;
+    margin-left: -9rem;
+    margin-top: 10px;
+}
+
+.letrasm{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.letrasm .solucion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.letrasm .finanzas{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.letrasm .aqui{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comenzar{
+    background-color: #ffd15c;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.largem{
+    background-image: url("../img/bar.png");
+    background-size: 100% 100%; 
+    border-radius: 15px;
+}
+
+.contactCardm{
+    margin-top: -10px;
+    background-color: rgb(0 0 0 / 50%);
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.contactCardm .envianos{
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 993px) {
+    .logowc{
+        display: none;
+    }
+
+    .letrasm{
+        display: none;
+    }
+
+    .largem{
+        display: none;
+    }
+
+    .simm{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .logoc{
+        display: none !important;
+    }
+
+    .header{
+        height: 19rem;
+    }
+
+    .letras{
+        display: none;
+    }
+
+    .nosotros{
+        margin-top: 5rem;
+    }
+
+    .parrafoNosotros{
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .servicios{
+        margin-top: 5rem;
+    }
+
+    .large{
+        display: none;
+    }
+
+    .ultimo{
+        justify-content: end;
+        padding-right: 1rem;
+    }
+
+    .sim{
+        display: none;
+    }
+
+    .tarjetas{
+        flex-direction: column;
+        top: 2rem;
+    }
+
+    .tarjeta{
+        width: 95%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .solicitarg{
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .conoce{
+        font-size: 20px;
+    }
+
+    .enviar{
+        width: 90%;
+    }
+
+    .aliado{
+        width: 20%;
+    }
+
+    .ventajas{
+        margin-top: 3rem;
+        font-size: 24px;
+    }
+
+    .solicitar{
+        font-size: 13px;
+    }
+
+    .padding{
+        padding-left: 3rem !important;
+    }
+
+    .nosotros{
+        font-size: 24px;
+    }
+
+    .servicios{
+        font-size: 24px;
+    }
+  }
