@@ -566,7 +566,7 @@ nav{
     color: #000;
 }
 .header-port{
-    background-image: url("/img/bg-port.png");
+    background-image: url("../img/bg-port.png");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -609,7 +609,7 @@ nav{
     margin: 15rem 0;
 }
 .tipos-content{
-    background-image: url("/img/bg-card.png");
+    background-image: url("../img/bg-card.png");
     display: flex;
     margin: 5rem 0;
     
@@ -618,7 +618,7 @@ nav{
     max-width: 50%;
 }
 .tipos-content-r{
-    background-image: url("/img/bg-card.png");
+    background-image: url("../img/bg-card.png");
     display: flex;
     flex-direction:row-reverse;
     margin: 150px 0;
