@@ -632,11 +632,9 @@ nav{
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: right;
   color: #000;
 }
 .tipo-explain{
-    max-width: 70%;
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: normal;
@@ -644,7 +642,6 @@ nav{
     font-style: normal;
     line-height: 2;
     letter-spacing: normal;
-    text-align:right;
     color: #000;
 }
 .tipo-r{
@@ -658,7 +655,6 @@ nav{
   color: #000;
 }
 .tipo-explain-r{
-    max-width: 70%;
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: normal;
@@ -670,11 +666,21 @@ nav{
     color: #000;
 }
 .creditos-img{
-    margin-bottom: -100px;
-    margin-top: -175px;
-    width:50%;
+    margin-top: -7rem;
+    width: 110%;
 }
 
+.creditos-img-alt{
+    margin-top: -10rem;
+    margin-left: -6rem;
+    width: 100%;
+}
+
+.hipo-img{
+    width: 50%;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+}
 
 
 /* Text inputs */
@@ -950,3 +956,24 @@ textarea.materialize-textarea.validate + label {
         font-size: 24px;
     }
   }
+
+.acr{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.79;
+letter-spacing: normal;
+text-align: center;
+color: #000;
+}
+
+.grayBg{
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgb(205 205 205 / 10%);
+    width: 95%;
+}
+
+
