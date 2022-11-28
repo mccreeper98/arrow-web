@@ -842,6 +842,15 @@ textarea.materialize-textarea.validate + label {
     margin-top: 0;
 }
 
+.margen-mobile{
+    margin-top: 1rem;
+}
+
+.horizontal-mobile{
+    margin: 0 auto;
+}
+
+
 @media only screen and (min-width: 993px) {
     .logowc{
         display: none;
@@ -867,6 +876,10 @@ textarea.materialize-textarea.validate + label {
 @media only screen and (max-width: 992px) {
     .logoc{
         display: none !important;
+    }
+
+    .grayBg{
+        margin-top: 0 !important;
     }
 
     .header{
