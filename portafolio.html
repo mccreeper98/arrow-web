@@ -7,6 +7,9 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+      <!-- Import fafa icons-->
+    <script src="https://kit.fontawesome.com/7d14a0cefe.js" crossorigin="anonymous"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,19 +23,19 @@
                 <a href="#" data-activates="mobile-demo" class="button-collapse black-text"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                 <li><a class="newcolor" href="index.html">Inicio</a></li>
-                <li><a class="newcolor" href="nosotros.html">Nosotros</a></li>
-                <li><a class="newcolor" href="tabulador.html">Tabulador de crédito</a></li>
-                <li><a class="newcolor" href="ventajas.html">Ventajas</a></li>
+                <li><a class="newcolor" href="index.html#nosotros">Nosotros</a></li>
+                <li><a class="newcolor" href="index.html#simulador">Tabulador de crédito</a></li>
+                <li><a class="newcolor" href="index.html#ventajas">Ventajas</a></li>
                 <li><a class="newcolor" href="portafolio.html">Portafolio</a></li>
-                <li><a class="newcolor" href="contacto.html">Contacto</a></li>
+                <li><a class="newcolor" href="#contacto">Contacto</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                 <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>
-                <li><a  href="nosotros.html">Nosotros</a></li>
-                <li><a  href="tabulador.html">Tabulador de crédito</a></li>
-                <li><a  href="ventajas.html">Ventajas</a></li>
+                <li><a  href="index.html#nosotros">Nosotros</a></li>
+                <li><a  href="index.html#simulador">Tabulador de crédito</a></li>
+                <li><a  href="index.html#ventajas">Ventajas</a></li>
                 <li><a  href="portafolio.html">Portafolio</a></li>
-                <li><a  href="contacto.html">Contacto</a></li>
+                <li><a  href="#contacto">Contacto</a></li>
                 </ul>
             </div>
             </nav>
@@ -61,8 +64,8 @@
             <br><br>
 
             <div class="center">
-              <p class="acr">Acércate a Nosotros, Somos tu Mejor Aliado</p>
-              <a class="waves-effect waves-light btn comenzar">Solicita informacion</a>
+              <p  class="tipo">Acércate a Nosotros, Somos tu Mejor Aliado</p>
+              <a class="waves-effect waves-light btn comenzar" href="#contacto">Solicita informacion</a>
             </div>
 
             <div class="grayBg">
@@ -70,8 +73,10 @@
                   <div class="col s12 m6 l2"></div>
 
                   <div class="col s12 m6 l5">
-                    <p class="tipo">Simple</p>
-                    <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                    <p class="tipo">Revolvente</p>
+                    <p class="tipo-explain">Te permite tener liquidez inmediata
+                      Sustituye el crédito entre proveedores, obtén mejores condiciones de compra en insumos y materias primas y abate costos operativos.
+                      Con este tipo de crédito, el financiamiento a corto plazo es de 12 meses, línea de crédito con pago de interés mensual únicamente y un pago de capital al mes de 12, con opción para renovación una vez que se haya pagado el monto de la línea de crédito. En esta etapa, tendrás la oportunidad de hacerle frente a contratos y crear un flujo de efectivo para capital de trabajo.</p> 
                   </div>
 
                   <div class="col s12 m6 l5">
@@ -83,13 +88,14 @@
                   <div class="col s12 m6 l2"></div>
 
                   <div class="col s12 m6 l5">
-                    <p class="tipo">Puente</p>
-                    <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                    <p class="tipo">Leasing</p>
+                    <p class="tipo-explain">Convierte en liquidez los activos de tu empresa sin dejar de usarlos</p> 
                   </div>
 
                   <div class="col s12 m6 l5">
-                    <p class="tipo">Revolvente</p>
-                    <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                    <p class="tipo">Factoraje financiero</p>
+                    <p class="tipo-explain">Te permite convertir tus cuentas por cobrar en liquidez inmediata
+                    </p> 
                   </div>
                 </div>
             </div>
@@ -98,29 +104,28 @@
               <div class="row">
 
                 <div class="col s12 m6 l6">
-                  <img class="creditos-img-alt horizontal-mobile" src="img/credit.png" alt="">
+                  <img class="creditos-img-alt horizontal-mobile menos" src="img/credit.png" alt="">
                 </div>
 
                 <div class="col s12 m6 l5">
-                  <p class="tipo">Arrendamiento puro</p>
-                  <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                  <p class="tipo">Hipotecario</p>
+                  <p class="tipo-explain">Es un préstamo a mediano o largo plazo que se otorga para la compra, ampliación, reparación o construcción de una vivienda, compra de sitios, oficinas o locales comerciales. Este tipo de créditos permiten a las personas adquirir una vivienda.</p> 
                 </div>
 
                 <div class="col s12 m6 l2"></div>
               </div>
-              <br><br>
               <div class="row">
 
                 <div class="col s12 m6 l1"></div>
 
                 <div class="col s12 m6 l5">
-                  <p class="tipo">Factoraje</p>
-                  <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                  <p class="tipo">Crédito de liquidez</p>
+                  <p class="tipo-explain">Financiamiento al que puedes acceder si eres dueño de una casa o bien inmueble que puedas utilizar como garantía hipotecaria. Puedes utilizar este tipo de crédito para lo que tú quieras: poner un negocio, remodelar o comprar tu próximo hogar, liberarte de deudas y más.</p> 
                 </div>
 
                 <div class="col s12 m6 l5">
-                  <p class="tipo">Arrendamiento financiero</p>
-                  <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                  <p class="tipo">Automotriz</p>
+                  <p class="tipo-explain">Te permite adquirir autos, tractos, camiones y equipo aliado, nuevo o seminuevo</p> 
                 </div>
 
                 <div class="col s12 m6 l1"></div>
@@ -132,8 +137,9 @@
                   <div class="col s12 m6 l2"></div>
 
                   <div class="col s12 m6 l5">
-                    <p class="tipo">Hipotecario</p>
-                    <p class="tipo-explain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repellendus velit. Magni incidunt nemo dignissimos velit. Nihil reiciendis excepturi harum ipsa cupiditate explicabo. Asperiores, numquam eum ad iste quibusdam fugit!</p> 
+                    <p class="tipo">Pago a proveedores</p>
+                    <p class="tipo-explain">Es un crédito por medio de facturas hasta 90 días con un pago anticipado para inventario, obteniendo mejores precios.
+                    </p> 
                   </div>
 
                   <div class="col s12 m6 l5">
@@ -145,8 +151,9 @@
           <div class="row web">
             <div class="col s12 m6 l9  tipos-content">
               <div class="tipo-texto">
-               <p class="tipo" style="text-align: right;">Hipotecario</p>
-              <p class="tipo-explain right" style="text-align: right;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, repellendus velit. Magni incidunt nemo dignissimos velit. Nihil reiciendis excepturi harum ipsa cupiditate explicabo. Asperiores, numquam eum ad iste quibusdam fugit!</p> 
+               <p class="tipo" style="text-align: right;">Pago a proveedores</p>
+              <p class="tipo-explain right" style="text-align: right;">Es un crédito por medio de facturas hasta 90 días con un pago anticipado para inventario, obteniendo mejores precios.
+              </p> 
               </div>
               <img class="hipo-img" src="img/credit.png">
             </div>
@@ -156,83 +163,69 @@
             <div class="row">
 
               <div class="col s12 m6 l6">
-                <img class="creditos-img-alt margen-mobile horizontal-mobile" src="img/credit.png" alt="">
+                <img class="creditos-img-alt margen-mobile horizontal-mobile menos" src="img/credit.png" alt="">
               </div>
 
               <div class="col s12 m6 l5">
-                <p class="tipo">Liquidez</p>
-                <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p> 
+                <p class="tipo">Simple</p>
+                <p class="tipo-explain">Te permite tener liquidez inmediata
+                  Sustituye el crédito entre proveedores, obtén mejores condiciones de compra en insumos y materias primas y abate costos operativos.
+                  Con este tipo de crédito, el financiamiento a corto plazo es de 12 meses, línea de crédito con pago de interés mensual únicamente y un pago de capital al mes de 12, con opción para renovación una vez que se haya pagado el monto de la línea de crédito. En esta etapa, tendrás la oportunidad de hacerle frente a contratos y crear un flujo de efectivo para capital de trabajo.</p> 
               </div>
 
               <div class="col s12 m6 l2"></div>
             </div>
-            <br><br>
-            <div class="row">
-
-              <div class="col s12 m6 l1"></div>
-
-              <div class="col s12 m6 l10">
-                <p class="tipo">Personales</p>
-                <p class="tipo-explain">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam </p> 
-              </div>
-
-              <div class="col s12 m6 l1"></div>
-            </div>
-        </div>
             
-        <section id="contacto" style="height: 100vh;">
+        </div>
+            <div class="espaciador"></div>
+        <section id="contacto">
           <p class="ventajas">CONTACTO</p>
           <div class="center">
             <img src="img/line.png" alt="">
           </div>
           <br>
+          <br>
 
           <div class="web">
-            <div class="contactCard">
+            
+  
+            <div class="fondo">
+              <img src="img/bgc.png" style="width: 100%;">
 
-              <p class="envianos">
-                Envíanos un mensaje
-              </p>
+              <div class="contactCard">
 
-              <div class="row">
-                <form class="col s8">
-                  
-                  <div class="row">
+                <p class="envianos">
+                  Envíanos un mensaje
+                </p>
+  
+                <div class="row">
+                  <form class="col s10 contact center">
+                    
                     <div class="input-field col s12">
                       <input id="first_name" type="text" class="validate">
                       <label for="first_name">Nombre</label>
                     </div>
-                  </div>
-
-                  <div class="row">
+  
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">Teléfono</label>
+                      <input id="phone" type="text" class="validate">
+                      <label for="phone">Teléfono</label>
                     </div>
-                  </div>
-
-                  <div class="row">
+  
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">Correo electrónico</label>
+                      <input id="email" type="text" class="validate">
+                      <label for="email">Correo electrónico</label>
                     </div>
-                  </div>
-
-                  <div class="row">
+  
                     <div class="input-field col s12">
-                      <textarea id="textarea1" class="materialize-textarea validate"></textarea>
+                      <textarea id="textarea1" style="height: auto;" rows="4" class="materialize-textarea validate"></textarea>
                       <label for="textarea1">Mensaje</label>
                     </div>
-                  </div>
-
-                  <a class="waves-effect waves-light btn enviar">ENVIAR</a>
-                </form>
-              </div>
-
-            </div>
   
-            <div class="fondo">
-              <img src="img/bgc.png" style="width: 100%;">
+                    <a class="waves-effect waves-light btn enviar" onclick="onClick(event)">ENVIAR</a>
+                  </form>
+                </div>
+  
+              </div>
             </div>
           </div>
 
@@ -248,37 +241,37 @@
               </p>
 
               <div class="row">
-                <form class="col s12">
+                <form class="col s12 contact">
                   
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">Nombre</label>
+                      <input id="first_namem" type="text" class="validate">
+                      <label for="first_namem">Nombre</label>
                     </div>
                   </div>
 
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">Teléfono</label>
+                      <input id="phonem" type="text" class="validate">
+                      <label for="phonem">Teléfono</label>
                     </div>
                   </div>
 
                   <div class="row">
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">Correo electrónico</label>
+                      <input id="emailm"  type="text" class="validate">
+                      <label for="emailm">Correo electrónico</label>
                     </div>
                   </div>
 
                   <div class="row">
                     <div class="input-field col s12">
-                      <textarea id="textarea1" class="materialize-textarea validate"></textarea>
-                      <label for="textarea1">Mensaje</label>
+                      <textarea id="textarea1m" style="height: auto;" rows="4" class="materialize-textarea validate"></textarea>
+                      <label for="textarea1m">Mensaje</label>
                     </div>
                   </div>
 
-                  <a class="waves-effect waves-light btn enviar">ENVIAR</a>
+                  <a class="waves-effect waves-light btn enviar"onclick="onClickm(event)">ENVIAR</a>
                 </form>
               </div>
 
@@ -378,7 +371,7 @@
                   </div>
                   <div class="col s10">
                     <p class="direccion">
-                      55 88 48 40 92
+                      55 24 86 58 72
                     </p>
                   </div>
                 </div>
@@ -390,35 +383,189 @@
                   </div>
                   <div class="col s10">
                     <p class="direccion">
-                      contacto@jbgroupfa.com
+                      contacto@arrowcf.mx
                     </p>
                   </div>
 
-                  <div class="col s2">
+                  <!-- <div class="col s2">
                     <i class="material-icons footer-icon">mail</i>
                   </div>
                   <div class="col s10">
                     <p class="direccion">
                       direccion@jbgroupfa.com
                     </p>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
 
           <p class="copy">
-            Arrow ®2022 · Aviso de Privacidad · Términos y condiciones · Powered by Bananaggek
+            Arrow ®2023 · Aviso de Privacidad · Términos y condiciones · Powered by Bananageek
           </p>  
         </div>
 
-    </main>   
+    </main>  
+    
+    <div class="fixed-action-btn ">
+      <a class="btn-floating btn-large" style="background-color: #25d366; margin-right: 0px;"
+        href="https://wa.me/+525559092877" target="_blank"><i
+          class="fab fa-whatsapp fa-5x"></i></a>
+    </div>
           <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
           <script type="text/javascript" src="js/materialize.min.js"></script>
+          <script type="text/javascript" src="dist/sweetalert-dev.js"></script>
           <script>
             $(document).ready(function(){
               $(".button-collapse").sideNav();
             });
+
+            function soloLetras(event){
+          var regex = new RegExp("^[a-zA-Z ]+$");
+          var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+          if (!regex.test(key)) {
+              event.preventDefault();
+              return false;
+          }
+        }
+
+      function soloNumeros(event){
+          var regex = new RegExp("^[0-9]+$");
+          var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+          if (!regex.test(key)) {
+              event.preventDefault();
+              return false;
+          }
+      }
+
+      function onClick(e) {
+        const name = $('#first_name').val()
+        const email = $('#email').val()
+        const tel = $('#phone').val()
+        const desc = $('#textarea1').val()
+        const matches = email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)
+        if (name && email && tel && desc) {
+            if(matches){
+              var data = { 
+              "nombre": name,
+              "correo": email,
+              "telefono": tel,
+              "mensaje": desc,
+            }
+
+            var domain = 'http://localhost:8080/';
+
+            $.ajax({
+              url : domain+'api/contacts/v1',        
+              data : data,
+              type : 'POST',
+              // dataType : 'application/json',
+              success : function(json) {
+                swal({
+                  title: 'Bien',
+                  text: 'Se ha enviado su información, un asesor se pondra en contacto',
+                  type: "success",
+                  confirmButtonText: "Aceptar",
+                  closeOnConfirm: false,
+                  html: false
+                }, function(){
+                  window.location.reload();
+                });
+              },
+              error : function(jqXHR, status, error) {
+                console.log(error);
+                swal({
+                  title: 'Error',
+                  text: 'No se ha podido enviar la información',
+                  type: "error",
+                  confirmButtonText: "Aceptar",
+                  closeOnConfirm: true,
+                  html: false
+                });
+              }
+            });
+            }else{
+                swal({
+                    title: '¡Error!',
+                    text: 'Ingrese un correo valido',
+                    type: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });    
+            }
+        }else{
+                swal({
+                    title: '¡Error!',
+                    text: 'Todos los datos son necesarios',
+                    type: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });    
+            }
+      }
+
+      function onClickm(e) {
+        const name = $('#first_namem').val()
+        const email = $('#emailm').val()
+        const tel = $('#phonem').val()
+        const desc = $('#textarea1m').val()
+        const matches = email.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)
+        if (name && email && tel && desc) {
+            if(matches){
+              var data = { 
+              "nombre": name,
+              "correo": email,
+              "telefono": tel,
+              "mensaje": desc,
+            }
+
+            var domain = 'https://arrowconsulting.com.mx:8080/';
+
+            $.ajax({
+              url : domain+'api/contacts/v1',        
+              data : data,
+              type : 'POST',
+              // dataType : 'application/json',
+              success : function(json) {
+                swal({
+                  title: 'Bien',
+                  text: 'Se ha enviado su información, un asesor se pondra en contacto',
+                  type: "success",
+                  confirmButtonText: "Aceptar",
+                  closeOnConfirm: false,
+                  html: false
+                }, function(){
+                  window.location.reload();
+                });
+              },
+              error : function(jqXHR, status, error) {
+                console.log(error);
+                swal({
+                  title: 'Error',
+                  text: 'No se ha podido enviar la información',
+                  type: "error",
+                  confirmButtonText: "Aceptar",
+                  closeOnConfirm: true,
+                  html: false
+                });
+              }
+            });
+            }else{
+                swal({
+                    title: '¡Error!',
+                    text: 'Ingrese un correo valido',
+                    type: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });    
+            }
+        }else{
+                swal({
+                    title: '¡Error!',
+                    text: 'Todos los datos son necesarios',
+                    type: 'warning',
+                    confirmButtonText: 'Aceptar'
+                });    
+            }
+      }
+
           </script>
         </body>
       </html>
