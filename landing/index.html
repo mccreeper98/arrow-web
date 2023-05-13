@@ -371,7 +371,7 @@
                   <div class="col s12 m6 l3"></div>
 
                   <div class="input-field col s12 m6 l6">
-                    <input type="text" class="validate" id="nombre" style="margin-bottom: 0;">
+                    <input type="text" class="validate" id="nombre" style="margin-bottom: 0;"  onkeypress="return soloLetras(event)">
                     <label for="nombre">Nombre completo</label>
                   </div>
                 </div>
@@ -379,7 +379,7 @@
                 <div class="row">
                   <div class="col s12 m6 l3"></div>
                   <div class="input-field col s12 m6 l6">
-                    <input id="tel" type="text" class="validate" style="margin-bottom: 0;">
+                    <input id="tel" type="text" class="validate" style="margin-bottom: 0;" onkeypress="return soloNumeros(event)" maxlength="10">
                     <label for="tel">Teléfono</label>
                   </div>
                 </div>
@@ -1067,7 +1067,7 @@
               "mensaje": desc,
             }
 
-            var domain = 'http://localhost:8080/';
+            var domain = 'https://arrowconsulting.com.mx:8080/';
 
             $.ajax({
               url : domain+'api/contacts/v1',        

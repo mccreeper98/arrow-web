@@ -202,12 +202,12 @@
                   <form class="col s10 contact center">
                     
                     <div class="input-field col s12">
-                      <input id="first_name" type="text" class="validate">
+                      <input id="first_name" type="text" class="validate"  onkeypress="return soloLetras(event)">
                       <label for="first_name">Nombre</label>
                     </div>
   
                     <div class="input-field col s12">
-                      <input id="phone" type="text" class="validate">
+                      <input id="phone" type="text" class="validate"  onkeypress="return soloNumeros(event)" maxlength="10">
                       <label for="phone">Teléfono</label>
                     </div>
   
@@ -453,7 +453,7 @@
               "mensaje": desc,
             }
 
-            var domain = 'http://localhost:8080/';
+            var domain = 'https://arrowconsulting.com.mx:8080/';
 
             $.ajax({
               url : domain+'api/contacts/v1',        
