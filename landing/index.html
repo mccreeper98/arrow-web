@@ -56,7 +56,7 @@
               </p>
               
               <br>
-              <a class="waves-effect waves-light btn comenzar" href="#contacto">CONTÁCTANOS</a>
+              <a class="waves-effect waves-light btn comenzar" href="#simulador">SOLICITAR CRÉDITO</a>
             </div>
         </div>
 
@@ -68,7 +68,7 @@
             Somos tu mejor aliado
           </p>
           <br>
-          <a class="waves-effect waves-light btn comenzar">CONTÁCTANOS</a>
+          <a class="waves-effect waves-light btn comenzar" href="#simulador">SOLICITAR CRÉDITO</a>
         </div>
 
         <section id="nosotros">
@@ -540,7 +540,7 @@
 
         </section>
         <div class="espaciador"></div>
-        <section id="contacto" style="height: 100vh;">
+        <section id="contacto" style="height: 100vh; display: none;">
           <p class="ventajas" style="margin-top: 0;">CONTACTO</p>
           <div class="center">
             <img src="../img/line.png" alt="">
@@ -548,7 +548,7 @@
           <br>
           <br>
 
-          <div class="web">
+          <div class="web hide">
             
   
             <div class="fondo">
@@ -591,7 +591,7 @@
             </div>
           </div>
 
-          <div class="mobile">
+          <div class="mobile hide">
 
 
             <img src="../img/bgc.png" style="width: 100%;">
@@ -739,7 +739,7 @@
                 </div>
               </div>
               <div class="col s12 m6 l3 padding">
-                <div class="row">
+                <div class="row" style="margin-bottom: 0;">
                   <div class="col s2">
                     <i class="material-icons footer-icon">mail</i>
                   </div>
@@ -749,10 +749,21 @@
                     </p>
                   </div>
                 </div>
+
+                <div class="row">
+                  <div class="col s2">
+                    <i class="material-icons footer-icon">mail</i>
+                  </div>
+                  <div class="col s10">
+                    <p class="direccion">
+                      contacto@arrowconsulting.com.mx
+                    </p>
+                  </div>
+                </div>
               </div>
+
             </div>
           </div>
-
           <p class="copy">
             Arrow ®2023 · Aviso de Privacidad · Términos y condiciones · Powered by Bananageek
           </p>  
@@ -1022,15 +1033,51 @@
 
         function send() {
 
-          swal({
-            title: 'Bien',
-            text: 'Se ha enviado su información, un asesor se pondra en contacto',
-            type: "success",
-            confirmButtonText: "Aceptar",
-            closeOnConfirm: false,
-            html: false
-          }, function(){
-             window.location.reload();
+          let range = document.getElementById('range');
+          let nombre = document.getElementById('nombre');
+          let correo = document.getElementById('cor');
+          let telefono = document.getElementById('tel');          
+
+          var domain = 'https://arrowconsulting.com.mx:8080/';
+
+          var data = { 
+              "nombre": nombre.value,
+              "correo": correo.value,
+              "telefono": telefono.value,
+              "tasa": 20,
+              "deseado": formatCurrencyNumber(range.value*10000),
+              "plazo": '36 meses' 
+          }
+
+
+          $.ajax({
+            url : domain+'api/contacts/v1',        
+            data : data,
+            type : 'POST',
+            // dataType : 'application/json',
+            success : function(json) {
+              swal({
+                title: 'Bien',
+                text: 'Se ha enviado su información, un asesor se pondra en contacto',
+                type: "success",
+                confirmButtonText: "Aceptar",
+                closeOnConfirm: false,
+                html: false
+              }, function(){
+                window.location.reload();
+              });
+            },
+            error : function(jqXHR, status, error) {
+              console.log(error);
+              swal({
+                title: 'Error',
+                text: 'No se ha podido enviar la información',
+                type: "warning",
+                confirmButtonText: "Aceptar",
+                closeOnConfirm: true,
+                html: false
+              });
+            }
           });
         }
 
